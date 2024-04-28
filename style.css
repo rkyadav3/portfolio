@@ -208,7 +208,7 @@ a {
     font-size: x-large;
     white-space: nowrap;
     letter-spacing: 4px;
-    width: 55em;
+    width: 107%;
 
 
 }
@@ -920,7 +920,7 @@ a {
 
 footer {
     background-color: #2d2828;
-    width: 89em;
+    width: 107%;
     height: 18em;
     padding: 0 0 0 0;
     color: #ffffff;
