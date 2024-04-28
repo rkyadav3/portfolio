@@ -1,15 +1,17 @@
 body{
     
-   
+   overflow-x: hidden;
     padding-left: 30px;
     padding-right: 30px;
     font-family: 'Courier New', Courier, monospace;
 }
 
+
 @media only screen and (max-width: 600px) {
     body {
-        width: 50%;
-        
+        width: auto;
+        padding-left: 10%;
+
     }
 }
 
@@ -24,13 +26,26 @@ a{
 .nav_bar{
     display: flex;
     justify-content: space-between;
-    padding-top: 0;
-    height:60px;
+    padding-top: 30px;
+    height:53px;
+    width: auto;
+    padding-left: 29px;
+    color: #1f1c1c;
+
     
+}
+@media only screen and (max-width: 600px) {
+    .nav_bar {
+        width: auto;
+        
+        
+    }
 }
 .nav_bar .left_logo{
     display: flex;
 }
+
+
 .nav_bar .left_logo img{
     width: 60px;
     height: auto;
@@ -76,14 +91,21 @@ a{
 }
 .left_para{
     display:flex;
-    margin-top: 40px;
-    margin-left: 100px;
+    margin-top: 100px;
+    margin-left: 0px;
     padding-right: 30px;
-    padding-left: 30px;
+    padding-left: 100px;
     justify-content: space-evenly;
     align-items: center;
+    color: #1f1c1c;
     
     
+}
+@media only screen and (max-width: 600px) {
+    .left_para {
+        justify-content: center;
+        
+    }
 }
 .left_para .left_para_content h1{
     font-size: 40px;
@@ -101,7 +123,7 @@ a{
 .left_para .left_para_content .left_para_button button{
    width: 100px;
    background-color: transparent;
-   color: #000000;
+   color: #1f1c1c;
    transition: transtion 0.3s ease-in;
    
 }
@@ -109,7 +131,7 @@ a{
     transform: scale(1.01);
 }
 .left_para .left_para_content .left_para_button .text{
-    background-color: black;
+    background-color: #1f1c1c;
     width: 150px;
     justify-content: center;
 }
@@ -158,25 +180,27 @@ a{
 }
 
 .main_bar{
-    background-color: rgb(0, 0, 0);
+    background-color: #1f1c1c;
     rotate: -2.5deg;
-    margin-top:-15px;
-    margin-right: -16px;
-    margin-left: -25px;
+    margin-top:-100px;
+    margin-left: -50px;
     overflow: hidden;
     color: #ffffff;
     font-size: x-large;
     white-space: nowrap;
     letter-spacing: 4px;
-    width: 101%;
-    position: static;
+    width: 100em;
+    
 
 }
 
 
 @media only screen and (max-width: 600px) {
     .main_bar {
-        display: none;
+        rotate: 0deg;
+        margin-top: 10px;
+        font-size: small;
+
     }
 }
 
@@ -206,24 +230,37 @@ a{
     display: flex;
     margin:11%;
 }
+@media only screen and (max-width: 600px) {
+    .sec_para {
+        display: flex;
+        flex-direction: column;
+        margin-left :100px;
+        margin-bottom: 9em;
+        color: #1f1c1c;
+    }
+}
 .sec_para .second_phase_left_para{
    
     padding: 10px;
     font-size: 20px;
     width: 100%;
-
+    color: #1f1c1c;
 }
+
 .second_phase_right_para{
     height: 249px;
     padding-top: 30px;
     margin-bottom: 0;
     font-style: bold;
+    color: #1f1c1c;
 }
 .second_phase_right_para p1{
     font-size: 27px;
+    color: #1f1c1c;
 }
 .second_phase_right_para p2{
     font-size: 19px;
+    color: #1f1c1c;
 }
 
 
@@ -232,6 +269,7 @@ a{
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
+    color: #1f1c1c;
    
 }
 #bron_in p{
@@ -245,6 +283,7 @@ a{
     font-size: 20px;
     padding:0;
     margin: 0;
+    color: #1f1c1c;
 }
 
 
@@ -259,6 +298,7 @@ a{
     font-size: 20px;
     padding:0;
     margin: 0;
+    color: #1f1c1c;
 }
 #dob p{
     color: orangered;
@@ -271,6 +311,7 @@ a{
     font-size: 20px;
     padding:0;
     margin: 0;
+    color: #1f1c1c;
 }
 
 
@@ -297,7 +338,7 @@ a{
     width: 315px;
     height: 100px;
     justify-content: center;
-    border: 2px solid black;
+    border: 2px solid #1f1c1c;
     margin: 0%;
 }
 .Years_of_exp h1{
@@ -305,12 +346,14 @@ a{
     margin: 0%;
     padding-top: 16px;
     font-size: 40px;
+    color: #1f1c1c;
 }
 .Years_of_exp h2{
     text-align: center;
     font-size: 14px;
     margin:0;
     padding: 0;
+    color: #1f1c1c;
 }
 
 
@@ -320,9 +363,9 @@ a{
     width: 315px;
     height: 100px;
     justify-content: center;
-    border: 2px solid black;
+    border: 2px solid #1f1c1c;
     margin: 0%;
-    background-color: #000000;
+    background-color: #1f1c1c;
 }
 .project_complete h1{
     text-align: center;
@@ -345,7 +388,7 @@ a{
     height: 100px;
     padding-top: 0%;
     justify-content: center;
-    border: 2px solid black;
+    border: 2px solid #1f1c1c;
     margin: 0%;
 }
 
@@ -354,12 +397,14 @@ a{
     margin: 0%;
     padding-top: 16px;
     font-size: 40px;
+    color: #1f1c1c;
 }
 .happy_clients h2{
     text-align: center;
     font-size: 14px;
     margin:0;
     padding: 0;
+    color: #1f1c1c;
 }
 
 
@@ -392,11 +437,13 @@ a{
     
     margin: 50px auto ;  
     text-align: center;
+    color: #1f1c1c;
     
 }
 .third_p_heading h4{
     overflow: hidden;
     white-space:nowrap;
+    color: #1f1c1c;
 }
 
 .list_of_awards ul{
@@ -437,7 +484,7 @@ a{
     width: fit-content;
 }
 .list_of_awards h1{
-    background-color: #000000;
+    background-color: #1f1c1c;
     color: #ffffff;
     margin:  28px 0px -42px 20px;
     width: 30px;
@@ -489,7 +536,13 @@ a{
 
 
 
-
+.fourth_phase{
+    
+    justify-content: center;
+    align-items: center;
+    padding-left: 10em;
+    padding-right: 10em;
+}
 
 
 
@@ -503,144 +556,202 @@ a{
 
 }
 
-.portfolio_list{
-    width: 100%;
+.portfolio_sec{
+    justify-content: center;
+    display: flex;
+    .portfolio_sec_text{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        
+    }
+    h2{
+        background-color: orangered ;
+        width: 10em;
+        color: #ffffff;
+        text-align: center;
+        padding: 1%;
+    }
+    h1{
+        margin: 0;
+        color: #1f1c1c;
+    }
+    a{
+        
+        width: 10em;
+        text-decoration: underline;
+        color: #1f1c1c;
+        text-align: center;
+        padding: 1%;
+    }
+    img{
+        width: 250px;
+        height: 250px;
+        
+    }
     
 }
-.list_of_portfolio ul{
-    display: flex;
-    flex-direction: column;
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fivth_phase{
+    
     justify-content: center;
     align-items: center;
-    
-    
+
+    margin-right: 50px;
 }
-
-.list_of_portfolio li{
-    border:2px solid;
-    width: 59em;
-    height: 9emx;
-    margin-bottom: 3%;
-    list-style: none;
-    align-items: center;
-    justify-content: center;
-    
-}
-
-.list_of_portfolio li img{
-    width: 300px;
-    height: 300px;
-    
-}
-
-.list_of_portfolio li #li1 img{
-    text-align: right;
-    display: flex;
-
-
-
-
-
-
-
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 
 
 .fivth_p_heading {
-    background-color: rgb(255, 255, 255);
-    width: 200px;
+    
+    text-align: center;
+    color: #1f1c1c;
+    
+}
+.logo2{
+    width: 70px;
+    height: 60px;
+
+}
+
+.service{
+    
+    ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        
+        
+    }
+    
+    .service_list{
+        .slist_part1{
+            transition: background-color 0.3s,color 0.3s ;
+        }
+        .slist_part1 li:hover{
+            background-color: #000000;
+            color: #ffffff;
+            
+        }
+        li{
+            border: 2px solid  #1f1c1c;
+            width: 400px;
+            height: 180px;
+            margin-bottom: 50px;
+            margin-top: 80px;
+            
+        }
+     
+        li h1{
+            margin-top: 15%;
+            margin-left: 5%;
+            
+        }
+        li p{
+            
+            margin-left: 5%;
+        }
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sixth_p_heading {
     margin: 50px auto ;  
     text-align: center;
+    color: #1f1c1c;
 
 }
-.fivth_phase .fivth_p_heading .logo2{
-    width: 100%;
-}
-.list_of_awards3 ul{
-    background-color: #ffffff;
-    list-style: none;
-    display: flex;
-    margin: auto auto auto auto  ;
-    width: 50%;
-    padding: 0px;
-    
-}
-.list_of_awards3 li{
-    border:2px solid;
-    padding: 20px;
-    margin-bottom: 10px;
-    width: 100px;
-    height: 100px;
-
-    
-    
-}
-.sixth_phase .sixth_p_heading {
-    background-color: rgb(255, 255, 255);
-    width: 200px;
-    margin: 50px auto ;  
-    text-align: center;
+.logo2{
+    width: 70px;
+    height: 60px;
 
 }
-.sixth_phase .sixth_p_heading .logo2{
-    width: 100%;
-}
-.list_of_awards4 ul{
-    background-color: #ffffff;
-    list-style: none;
-    display: list-item;
-    margin: auto auto auto auto  ;
-    width: 50%;
-    padding: 0px;
-    
-}
-.list_of_awards4 li{
-    border:2px solid;
-    padding: 20px;
-    margin-bottom: 10px;
-    
-    
-}
-.seventh_phase .seventh_p_heading {
-    background-color: rgb(255, 255, 255);
-    width: 200px;
-    margin: 50px auto ;  
-    text-align: center;
 
-}
-.seventh_phase .seventh_p_heading .logo2{
-    width: 100%;
-}
-.list_of_awards5 ul{
-    background-color: #ffffff;
-    list-style: none;
-    display: list-item;
-    margin: auto auto auto auto  ;
-    width: 50%;
-    padding: 0px;
+.customer{
+    ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        
+        
+    }
     
-}
-.list_of_awards5 li{
-    border:2px solid;
-    padding: 20px;
-    margin-bottom: 10px;
-    
-    
+    .customer_list{
+        .clist_part1{
+            
+            transition: background-color 0.3s,color 0.3s ;
+        }
+        .clist_part1 li hover{
+            background-color: #000000;
+            color: #ffffff;
+            
+        }
+        li{
+            border: 2px solid  #1f1c1c;
+            width: 400px;
+            height: 180px;
+            margin-bottom: 50px;
+            margin-left: 1px;   
+            padding-left: 10px;
+            padding-top: 10px;
+            text-align: center;
+            
+            img{
+                filter: grayscale(100%)brightness(0)invert(0);
+                width: 100px;
+                height: 100px;
+                margin-top: 30px;
+                :hover{
+                    background-color: #ffffff;
+                    filter: grayscale(100%)brightness(0)invert(1);
+                }
+            }
+            
+        }
+     
+        li h1{
+            margin-top: 15%;
+            margin-left: 5%;
+            
+        }
+        li p{
+            
+            margin-left: 5%;
+        }
+        
+    }
 }
